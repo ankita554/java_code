@@ -46,7 +46,7 @@ for x in List_ele:
 
 
 
-#driver.close()
+driver.close()
 
 
 
