@@ -30,7 +30,7 @@ List=driver.find_elements(By.CSS_SELECTOR, 'div.side-nav li a')
 
 print(len(List))
 
-time.sleep(3)
+time.sleep(10)
 
 driver.find_element(By.XPATH, "//div[@class='side-nav']//ul/li//a[@class='nav-section fa fa-file-text']").click()
 
